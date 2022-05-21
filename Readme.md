@@ -14,6 +14,13 @@ https://gitee.com/lundechen/static_website_with_go_hugo
 ## What you should learn:
 ### Bootstrap
 
+## 使用 Hugo 版本
+Hugo 0.62 extended （不是最新的，最新的0.98了）
+
+## 参考项目
+https://github.com/cppshu/cppshu.github.io
+
+比如多语言支持等可以参考这个项目。
 
 ## 群聊天
 大家好！谢谢你们表示对做静态网站的兴趣。
