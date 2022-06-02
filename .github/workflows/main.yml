@@ -53,5 +53,5 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_branch: tencent
-          publish_dir: ./
+          publish_dir: ./public
           allow_empty_commit: true
