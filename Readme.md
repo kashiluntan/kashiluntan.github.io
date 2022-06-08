@@ -9,7 +9,7 @@ https://kashiluntan.github.io
 https://gitee.com/lundechen/static_website_with_go_hugo
 
 ## 周会
-每周六19点周会，一起讨论
+每周日19点周会，一起讨论
 
 ## What you should learn:
 ### Bootstrap
