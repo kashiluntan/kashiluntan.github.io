@@ -1,0 +1,302 @@
+################# Banner ###################
+banner:
+  enable : true
+  heading : "商业"
+  heading_2 : "大会 2017"
+  content : "02-05 六月 2017 加利福尼亚"
+  timer:
+    enable : true
+    year : 2021
+    month : 9
+    day : 1
+  button:
+    enable : true
+    label : "购票"
+    link : "#"
+
+    
+################# About ###################
+about:
+  enable : true
+  title : "有关 _事项_"
+  image : "images/speakers/featured-speaker.jpg"
+  content : "这是内容.
+  <br><br>
+  这是内容."
+  button_solid:
+    enable : true
+    label : "买票"
+    link : "#"
+  button_outline:
+    enable : true
+    label : "获得更多"
+    link : "about"
+
+    
+################# Speaker ###################
+speakers:
+  enable : true
+  title : "这是啥?_"
+  content : "这是内容"
+  # speaker items are coming from "content/speakers" folder
+
+###################### Tab ####################
+tab:
+  enable : true
+  title : "Event Schedule"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusm tempor incididunt ut labore"
+  tablist:
+  # tab item
+  - name : "Day-01"
+    date : "20 November 2017"
+    tablist_items:
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-one.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-two.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+      
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-three.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+      
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-four.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+      
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-five.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+      
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-six.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+
+      
+  # tab item
+  - name : "Day-02"
+    date : "23 November 2017"
+    tablist_items:
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-one.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-two.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+      
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-three.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+      
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-four.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+      
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-five.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+      
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-six.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+
+      
+  # tab item
+  - name : "Day-03"
+    date : "25 November 2017"
+    tablist_items:
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-one.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-two.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+      
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-three.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+      
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-four.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+      
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-five.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+      
+    # speaker
+    - speaker : "Samanta Doe"
+      speaker_image : "images/speakers/speaker-thumb-six.jpg"
+      subject : "Introduction to Wp"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+
+
+############ Registration ####################
+registration:
+  enable : true
+  title : "Register to _Eventre_"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+  form_action : "#" # works with formspree.io
+
+  funfacts:
+  - name : "8 Speakers"
+    icon : "fa-microphone"
+    
+  - name : "500 + Seats"
+    icon : "fa-flag"
+    
+  - name : "300 tickets"
+    icon : "fa-ticket"
+    
+  - name : "3 days event"
+    icon : "fa-calendar"
+
+
+
+
+############ Pricing ####################
+pricing:
+  enable : true
+  title : "Get _Ticket_"
+  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore"
+  pricing_table:
+  - name : "Starter"
+    price : "39.00"
+    price_per : "Person"
+    button_link : "#"
+    features:
+    - "1 Comfortable Seats"
+    - "Free Lunch and Coffee"
+    - "Certificate"
+    - "Easy Access"
+    
+  - name : "Standard"
+    price : "49.00"
+    price_per : "Person"
+    button_link : "#"
+    features:
+    - "1 Comfortable Seats"
+    - "Free Lunch and Coffee"
+    - "Certificate"
+    - "Easy Access"
+    
+  - name : "Platinum"
+    price : "99.00"
+    price_per : "Person"
+    button_link : "#"
+    features:
+    - "1 Comfortable Seats"
+    - "Free Lunch and Coffee"
+    - "Certificate"
+    - "Easy Access"
+
+
+############### Call to action ############
+call_to_action:
+  enable : true
+  title : "Get Ticket _Now!_"
+  image : "images/speakers/speaker-ticket.png"
+  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmtempor incidi"
+  button:
+    enable : true
+    label : "Buy ticket"
+    link : "#"
+
+
+############### Sponsors ##################
+sponsors:
+  enable : true
+  title : "Our _Sponsors_"
+  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore dolore"
+  button:
+    enable : true
+    label : "Become a sponsor"
+    link : "#"
+  sponsor_group:
+  - name : "Platinum Sponsors"
+    sponsor_item:
+    - name : "sponsor"
+      logo : "images/sponsors/pt-spon-two.png"
+      link : "#"
+      
+    - name : "sponsor"
+      logo : "images/sponsors/pt-spon-three.png"
+      link : "#"
+      
+    - name : "sponsor"
+      logo : "images/sponsors/pt-spon-four.png"
+      link : "#"
+      
+    - name : "sponsor"
+      logo : "images/sponsors/pt-spon-three.png"
+      link : "#"
+      
+  - name : "Gold Sponsors"
+    sponsor_item:
+    - name : "sponsor"
+      logo : "images/sponsors/gl-spon-two.png"
+      link : "#"
+      
+    - name : "sponsor"
+      logo : "images/sponsors/gl-spon-three.png"
+      link : "#"
+      
+    - name : "sponsor"
+      logo : "images/sponsors/gl-spon-one.png"
+      link : "#"
