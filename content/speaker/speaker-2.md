@@ -1,9 +1,9 @@
 ---
-title : "Jonathan Franco"
+title : "罗锡文院士"
 page_header_bg : "images/background/page-title-bg.jpg"
 date: 2020-03-14T15:40:24+06:00
-designation: "Project Manager"
-image: "images/speakers/speaker-two.jpg"
+identity: "工程院院士，智能农机专家"
+image: "images/speakers/speaker-four.jpg"
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, velit."
 draft : false
 social:

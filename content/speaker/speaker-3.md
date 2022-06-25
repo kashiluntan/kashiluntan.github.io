@@ -1,9 +1,9 @@
 ---
-title : "Jeqlin Markus"
+title : "赵伟院士"
 page_header_bg : "images/background/page-title-bg.jpg"
 date: 2020-03-14T15:40:24+06:00
-designation: "Marketing Lead"
-image: "images/speakers/speaker-three.jpg"
+identity: "美籍华人知名计算机科学家，国际欧亚科学院院士，澳门大学第8任校长"
+image: "images/speakers/speaker-five.jpg"
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, velit."
 draft : false
 social:

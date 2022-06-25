@@ -1,258 +1,195 @@
 ################# Banner ###################
 banner:
   enable : true
-  heading : "Business"
-  heading_2 : "Conference 2017"
-  content : "02-05 July 2017 California"
+  heading : "Welcome"
+  heading_2 : "喀什数字经济高质量发展论坛"
+  date : "2022年10月"
+  location: "喀什国际会展中心"
   timer:
     enable : true
-    year : 2021
-    month : 9
+    year : 2022
+    month : 10
     day : 1
   button:
     enable : true
-    label : "get ticket now"
+    label : "大会论坛"
     link : "#"
 
     
 ################# About ###################
 about:
   enable : true
-  title : "About The _Eventre_"
-  image : "images/speakers/featured-speaker.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco.
+  title : "大会信息"
+  image : "images/featured-speaker.svg"
+  content : "时间: 2022年10月 (三天)
   <br><br>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt ut labore et dolore magna aliq enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."
-  button_solid:
-    enable : true
-    label : "Buy ticket"
-    link : "#"
-  button_outline:
-    enable : true
-    label : "Read more"
-    link : "about"
+  地址: 喀什国际会展中心
+  <br><br>
+  酒店：喀什宾馆、喀什喀什深业丽笙酒店"
 
-    
+################# Member ###################
+members:
+  enable : true
+  title : "大会成员"
+  
+
 ################# Speaker ###################
 speakers:
   enable : true
-  title : "Who _Speaking?_"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusm tempor incididunt ut labore"
+  title : "重要嘉宾"
   # speaker items are coming from "content/speakers" folder
 
 ###################### Tab ####################
 tab:
   enable : true
-  title : "Event Schedule"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusm tempor incididunt ut labore"
+  title : "大会论坛"
   tablist:
   # tab item
-  - name : "Day-01"
+  - name : "P-1"
     date : "20 November 2017"
+    title: "科技论坛"
+    host: "苏敬勇教授（哈工大（深圳））"
     tablist_items:
     # speaker
-    - speaker : "Samanta Doe"
+    - speaker : "哈工大"
       speaker_image : "images/speakers/speaker-thumb-one.jpg"
-      subject : "Introduction to Wp"
+      subject : "气候与农业"
       venue : "Auditorium A"
       time : "9.00 AM"
 
     # speaker
-    - speaker : "Samanta Doe"
+    - speaker : "华科团队"
       speaker_image : "images/speakers/speaker-thumb-two.jpg"
-      subject : "Introduction to Wp"
+      subject : "智慧乡村"
       venue : "Auditorium A"
       time : "9.00 AM"
       
     # speaker
-    - speaker : "Samanta Doe"
+    - speaker : "曾院士团队"
       speaker_image : "images/speakers/speaker-thumb-three.jpg"
-      subject : "Introduction to Wp"
+      subject : "植被与沙漠治理"
       venue : "Auditorium A"
       time : "9.00 AM"
       
     # speaker
-    - speaker : "Samanta Doe"
+    - speaker : "浙江大学"
       speaker_image : "images/speakers/speaker-thumb-four.jpg"
-      subject : "Introduction to Wp"
+      subject : "智慧畜牧"
       venue : "Auditorium A"
       time : "9.00 AM"
       
-    # speaker
-    - speaker : "Samanta Doe"
-      speaker_image : "images/speakers/speaker-thumb-five.jpg"
-      subject : "Introduction to Wp"
-      venue : "Auditorium A"
-      time : "9.00 AM"
-      
-    # speaker
-    - speaker : "Samanta Doe"
-      speaker_image : "images/speakers/speaker-thumb-six.jpg"
-      subject : "Introduction to Wp"
-      venue : "Auditorium A"
-      time : "9.00 AM"
-
       
   # tab item
-  - name : "Day-02"
+  - name : "P-2"
     date : "23 November 2017"
+    title: "企业家论坛"
+    host: "蒋涛（CSDN董事长）"
     tablist_items:
     # speaker
-    - speaker : "Samanta Doe"
+    - speaker : "蒋涛"
       speaker_image : "images/speakers/speaker-thumb-one.jpg"
-      subject : "Introduction to Wp"
+      subject : "数字经济创新创业论坛"
       venue : "Auditorium A"
       time : "9.00 AM"
 
     # speaker
-    - speaker : "Samanta Doe"
+    - speaker : "王国栋/刘晓涛"
       speaker_image : "images/speakers/speaker-thumb-two.jpg"
-      subject : "Introduction to Wp"
+      subject : "AI/机器人论坛"
       venue : "Auditorium A"
       time : "9.00 AM"
       
     # speaker
-    - speaker : "Samanta Doe"
+    - speaker : "熊明"
       speaker_image : "images/speakers/speaker-thumb-three.jpg"
-      subject : "Introduction to Wp"
+      subject : "数字金融论坛"
       venue : "Auditorium A"
       time : "9.00 AM"
       
     # speaker
-    - speaker : "Samanta Doe"
+    - speaker : "李延凯/宣东"
       speaker_image : "images/speakers/speaker-thumb-four.jpg"
-      subject : "Introduction to Wp"
+      subject : "数字交易与隐私计算论坛"
       venue : "Auditorium A"
       time : "9.00 AM"
       
-    # speaker
-    - speaker : "Samanta Doe"
-      speaker_image : "images/speakers/speaker-thumb-five.jpg"
-      subject : "Introduction to Wp"
-      venue : "Auditorium A"
-      time : "9.00 AM"
-      
-    # speaker
-    - speaker : "Samanta Doe"
-      speaker_image : "images/speakers/speaker-thumb-six.jpg"
-      subject : "Introduction to Wp"
-      venue : "Auditorium A"
-      time : "9.00 AM"
 
       
   # tab item
-  - name : "Day-03"
+  - name : "P-3"
     date : "25 November 2017"
+    title: "教育论坛"
+    host: "胡春明教授（北京航空航天大学）"
     tablist_items:
     # speaker
-    - speaker : "Samanta Doe"
+    - speaker : "教育与新经济发展"
       speaker_image : "images/speakers/speaker-thumb-one.jpg"
-      subject : "Introduction to Wp"
+      subject : "教育与新经济发展"
       venue : "Auditorium A"
       time : "9.00 AM"
 
     # speaker
-    - speaker : "Samanta Doe"
+    - speaker : "教育与文化自信"
       speaker_image : "images/speakers/speaker-thumb-two.jpg"
-      subject : "Introduction to Wp"
+      subject : "教育与文化自信"
       venue : "Auditorium A"
       time : "9.00 AM"
       
     # speaker
-    - speaker : "Samanta Doe"
+    - speaker : "教育与科技创新"
       speaker_image : "images/speakers/speaker-thumb-three.jpg"
-      subject : "Introduction to Wp"
+      subject : "教育与科技创新"
       venue : "Auditorium A"
       time : "9.00 AM"
       
     # speaker
-    - speaker : "Samanta Doe"
+    - speaker : "职业教育探索与发展"
       speaker_image : "images/speakers/speaker-thumb-four.jpg"
-      subject : "Introduction to Wp"
+      subject : "职业教育探索与发展"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+      
+  # tab item
+  - name : "P-4"
+    date : "25 November 2017"
+    title: "丝绸之路新中西亚新经济发展论坛"
+    host: "新疆商务厅"
+    tablist_items:
+    # speaker
+    - speaker : "对话喀什"
+      speaker_image : "images/speakers/speaker-thumb-one.jpg"
+      subject : "对话喀什"
+      venue : "Auditorium A"
+      time : "9.00 AM"
+
+    # speaker
+    - speaker : "美丽新疆"
+      speaker_image : "images/speakers/speaker-thumb-two.jpg"
+      subject : "美丽新疆"
       venue : "Auditorium A"
       time : "9.00 AM"
       
     # speaker
-    - speaker : "Samanta Doe"
-      speaker_image : "images/speakers/speaker-thumb-five.jpg"
-      subject : "Introduction to Wp"
+    - speaker : "国际外贸论坛"
+      speaker_image : "images/speakers/speaker-thumb-three.jpg"
+      subject : "国际外贸论坛"
       venue : "Auditorium A"
       time : "9.00 AM"
       
     # speaker
-    - speaker : "Samanta Doe"
-      speaker_image : "images/speakers/speaker-thumb-six.jpg"
-      subject : "Introduction to Wp"
+    - speaker : "一带一路高质量发展论坛"
+      speaker_image : "images/speakers/speaker-thumb-four.jpg"
+      subject : "一带一路高质量发展论坛"
       venue : "Auditorium A"
       time : "9.00 AM"
-
-
-############ Registration ####################
-registration:
-  enable : true
-  title : "Register to _Eventre_"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-  form_action : "#" # works with formspree.io
-
-  funfacts:
-  - name : "8 Speakers"
-    icon : "fa-microphone"
-    
-  - name : "500 + Seats"
-    icon : "fa-flag"
-    
-  - name : "300 tickets"
-    icon : "fa-ticket"
-    
-  - name : "3 days event"
-    icon : "fa-calendar"
-
-
-
-
-############ Pricing ####################
-pricing:
-  enable : true
-  title : "Get _Ticket_"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore"
-  pricing_table:
-  - name : "Starter"
-    price : "39.00"
-    price_per : "Person"
-    button_link : "#"
-    features:
-    - "1 Comfortable Seats"
-    - "Free Lunch and Coffee"
-    - "Certificate"
-    - "Easy Access"
-    
-  - name : "Standard"
-    price : "49.00"
-    price_per : "Person"
-    button_link : "#"
-    features:
-    - "1 Comfortable Seats"
-    - "Free Lunch and Coffee"
-    - "Certificate"
-    - "Easy Access"
-    
-  - name : "Platinum"
-    price : "99.00"
-    price_per : "Person"
-    button_link : "#"
-    features:
-    - "1 Comfortable Seats"
-    - "Free Lunch and Coffee"
-    - "Certificate"
-    - "Easy Access"
 
 
 ############### Call to action ############
 call_to_action:
   enable : true
-  title : "Get Ticket _Now!_"
-  image : "images/speakers/speaker-ticket.png"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmtempor incidi"
+  title : "其他相关活动"
+  image : "images/other-activity.jpg"
+  content : "喀什地区三日游，3条线路：胡杨林、沙漠、塔县、喀什市内一日游"
   button:
     enable : true
     label : "Buy ticket"
@@ -262,41 +199,116 @@ call_to_action:
 ############### Sponsors ##################
 sponsors:
   enable : true
-  title : "Our _Sponsors_"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore dolore"
+  title : "相关单位"
+  chinese: "hzhb"
   button:
     enable : true
     label : "Become a sponsor"
     link : "#"
   sponsor_group:
-  - name : "Platinum Sponsors"
+  - name : "承办单位"
     sponsor_item:
-    - name : "sponsor"
-      logo : "images/sponsors/pt-spon-two.png"
+    - name : "喀什大学"
+      logo : "images/sponsors/chengban-1.png"
       link : "#"
       
-    - name : "sponsor"
-      logo : "images/sponsors/pt-spon-three.png"
+    - name : "喀什繁星智能科技有限公司"
+      logo : "images/sponsors/chengban-2.png"
       link : "#"
       
-    - name : "sponsor"
-      logo : "images/sponsors/pt-spon-four.png"
+    - name : "深喀农牧产销链有限公司"
+      logo : "images/sponsors/chengban-3.png"
       link : "#"
       
-    - name : "sponsor"
-      logo : "images/sponsors/pt-spon-three.png"
-      link : "#"
       
-  - name : "Gold Sponsors"
+  - name : "指导单位"
     sponsor_item:
-    - name : "sponsor"
-      logo : "images/sponsors/gl-spon-two.png"
+    - name : "喀什地委"
+      logo : "images/sponsors/zhidao-1.png"
       link : "#"
       
-    - name : "sponsor"
-      logo : "images/sponsors/gl-spon-three.png"
+    - name : "喀什地区行署"
+      logo : "images/sponsors/zhidao-2.png"
       link : "#"
       
-    - name : "sponsor"
-      logo : "images/sponsors/gl-spon-one.png"
+    - name : "喀什市政府"
+      logo : "images/sponsors/zhidao-3.png"
+      link : "#"
+
+    - name : "深圳援疆指挥部"
+      logo : "images/sponsors/zhidao-4.png"
+      link : "#"
+
+    - name : "喀什市科技局"
+      logo : "images/sponsors/zhidao-5.png"
+      link : "#"
+
+    - name : "喀什市乡村振兴局"
+      logo : "images/sponsors/zhidao-6.png"
+      link : "#"
+
+    - name : "喀什市农业农村局"
+      logo : "images/sponsors/zhidao-7.png"
+      link : "#"
+
+  - name : "合作单位"
+    sponsor_item:
+    - name : "中国科学院地球物理研究所"
+      logo : "images/sponsors/hezuo-1.png"
+      link : "#"
+
+    - name : "中国科学院大气物理研究所"
+      logo : "images/sponsors/hezuo-2.png"
+      link : "#"
+      
+    - name : "长沙国家超算中心"
+      logo : "images/sponsors/hezuo-3.png"
+      link : "#"
+      
+    - name : "哈尔滨工业大学（深圳）"
+      logo : "images/sponsors/hezuo-4.png"
+      link : "#"
+
+    - name : "北京航空航天大学"
+      logo : "images/sponsors/hezuo-5.png"
+      link : "#"
+
+    - name : "中科院理工大学（深圳）"
+      logo : "images/sponsors/hezuo-6.png"
+      link : "#"
+
+    - name : "浙江大学"
+      logo : "images/sponsors/hezuo-7.png"
+      link : "#"
+
+  - name : "支持单位"
+    sponsor_item:
+    - name : "深圳援疆指挥部"
+      logo : "images/sponsors/zhichi-1.png"
+      link : "#"
+      
+    - name : "喀什湖北商会"
+      logo : "images/sponsors/zhichi-2.png"
+      link : "#"
+      
+  - name : "媒体报道"
+    sponsor_item:
+    - name : "人民日报"
+      logo : "images/sponsors/meiti-1.png"
+      link : "#"
+      
+    - name : "科技日报"
+      logo : "images/sponsors/meiti-2.png"
+      link : "#"
+      
+    - name : "光明日报"
+      logo : "images/sponsors/meiti-3.png"
+      link : "#"
+
+    - name : "新华网"
+      logo : "images/sponsors/meiti-4.png"
+      link : "#"
+
+    - name : "CSDN"
+      logo : "images/sponsors/meiti-5.png"
       link : "#"

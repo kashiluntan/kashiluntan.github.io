@@ -1,9 +1,9 @@
 ---
-title : "Jonathan Brush"
+title : "陈伦德博士（上海大学）"
 page_header_bg : "images/background/page-title-bg.jpg"
 date: 2020-03-14T15:40:24+06:00
-designation: "Web Developer"
-image: "images/speakers/speaker-five.jpg"
+identity: "大会筹备秘书处秘书长"
+image: "images/speakers/speaker-two.jpg"
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, velit."
 draft : false
 social:

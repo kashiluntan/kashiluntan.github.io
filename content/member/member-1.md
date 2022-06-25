@@ -1,8 +1,8 @@
 ---
-title : "John Doe"
+title : "李欢博士（哈尔滨工业大学（深圳））"
 page_header_bg : "images/background/page-title-bg.jpg"
 date: 2020-03-14T15:40:24+06:00
-designation: "Web Developer"
+identity: "大会主席"
 image: "images/speakers/speaker-four.jpg"
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, velit."
 draft : false

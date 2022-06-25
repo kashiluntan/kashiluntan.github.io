@@ -1,9 +1,9 @@
 ---
-title : "Jessica Juli"
+title : "曾庆存院士"
 page_header_bg : "images/background/page-title-bg.jpg"
 date: 2020-03-14T15:40:24+06:00
-designation: "Web Developer"
-image: "images/speakers/speaker-one.jpg"
+identity: "国际著名大气科学家，中国中科院院士，国家最高科技奖获得者，中国数值天气预报业务开创者"
+image: "images/speakers/speaker-three.jpg"
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, velit."
 draft : false
 social:
